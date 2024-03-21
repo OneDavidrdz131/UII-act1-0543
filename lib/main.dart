@@ -12,10 +12,10 @@ class MiAppcarros extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Rodriguez carro 0543",
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Color(0x610ba0cd)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0x610ba0cd)),
         useMaterial3: true,
       ),
-      home: PanelPantalla_0543(),
+      home: const PanelPantalla_0543(),
     );
   }
 }

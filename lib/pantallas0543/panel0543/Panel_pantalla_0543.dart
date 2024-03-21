@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:uii_act1_0543/pantallas0543/panel0543/widgets0543/item_carro0543.dart';
 
+// ignore: camel_case_types
 class PanelPantalla_0543 extends StatelessWidget {
   const PanelPantalla_0543({Key? key}) : super(key: key);
 
@@ -15,7 +16,7 @@ class PanelPantalla_0543 extends StatelessWidget {
           centerTitle: true,
           leading: IconButton(
             onPressed: () {},
-            icon: Icon(Icons.menu),
+            icon: const Icon(Icons.menu),
             color: Colors.white,
           ),
           actions: const [
@@ -42,7 +43,7 @@ class PanelPantalla_0543 extends StatelessWidget {
                   color: const Color(0xff026bf6),
                   boxShadow: [
                     BoxShadow(
-                      offset: Offset(0, 5),
+                      offset: const Offset(0, 5),
                       color: Theme.of(context)
                           .colorScheme
                           .primary
@@ -51,8 +52,8 @@ class PanelPantalla_0543 extends StatelessWidget {
                       blurRadius: 5,
                     )
                   ]),
-              child: TextField(
-                decoration: const InputDecoration(
+              child: const TextField(
+                decoration: InputDecoration(
                     hintText: "Buscar",
                     hintStyle: TextStyle(
                         fontWeight: FontWeight.w500, color: Color(0xffffffff)),
@@ -70,13 +71,13 @@ class PanelPantalla_0543 extends StatelessWidget {
                           "https://raw.githubusercontent.com/OneDavidrdz131/Img_FlutterFlow_IOS_6j/main/Acti12NavBar_Flutterflow/FordMustang67.jpg"))),
             ),
             ListTile(
-              title: Text("Top carros Ford "),
+              title: const Text("Top carros Ford "),
               titleTextStyle: Theme.of(context).textTheme.titleLarge,
-              trailing: Icon(Icons.filter_list),
+              trailing: const Icon(Icons.filter_list),
             ),
             Expanded(
                 child: GridView.count(
-              padding: EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               crossAxisCount: 2,
               mainAxisSpacing: 28,
               crossAxisSpacing: 15,
