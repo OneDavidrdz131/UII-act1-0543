@@ -6,8 +6,6 @@ import 'package:uii_act1_0543/pantallas0543/panel0543/widgets0543/item_carro0543
 class PanelPantalla_0543 extends StatelessWidget {
   const PanelPantalla_0543({Key? key}) : super(key: key);
 
-  get padding => null;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

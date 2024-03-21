@@ -6,13 +6,13 @@ class Itemcarro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(15),
+      padding: const EdgeInsets.all(15),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
-          color: Color(0xf364a4c9),
+          color: const Color(0xf364a4c9),
           boxShadow: [
             BoxShadow(
-              offset: Offset(0, 5),
+              offset: const Offset(0, 5),
               color: Theme.of(context).colorScheme.primary.withOpacity(.1),
               spreadRadius: 5,
               blurRadius: 5,
@@ -20,11 +20,11 @@ class Itemcarro extends StatelessWidget {
           ]),
       child: Column(
         children: [
-          CircleAvatar(
+          const CircleAvatar(
             backgroundImage: NetworkImage(
                 "https://raw.githubusercontent.com/OneDavidrdz131/Img_FlutterFlow_IOS_6j/main/Acti12NavBar_Flutterflow/FordMustang20.jpg"),
           ),
-          const SizedBox(
+          SizedBox(
             height: 20,
           ),
           Text(
@@ -37,7 +37,7 @@ class Itemcarro extends StatelessWidget {
           Row(
             children: List.generate(
                 5,
-                (index) => Icon(
+                (index) => const Icon(
                       Icons.star,
                       color: Colors.amber,
                       size: 18,
